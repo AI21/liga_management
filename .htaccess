@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteBase /
+#   RewriteRule    ^$ /    [L]
+#   RewriteRule    (.*) /$1 [L]
+</IfModule>

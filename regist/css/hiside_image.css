@@ -1,0 +1,95 @@
+* {
+    font-family: Verdana, Helvetica;
+    font-size: 10pt;
+}
+.highslide {
+	cursor: url(highslide/graphics/zoomin.cur), pointer;
+    outline: none;
+}
+.highslide-active-anchor img {
+	visibility: hidden;
+}
+.highslide img {
+	border: 2px solid gray;
+}
+.highslide:hover img {
+	border: 2px solid silver;
+}
+
+.highslide-wrapper {
+	background: white;
+}
+.highslide-image {
+    border-bottom: 1px solid white;
+    cursor: pointer; /* opera */
+	cursor: url(highslide/graphics/zoomout.cur), pointer;
+}
+.highslide-image-blur {
+    cursor: pointer;
+    cursor: hand;
+}
+.highslide-caption {
+    display: none;
+    
+    border-bottom: 1px solid white;
+    font-family: Verdana, Helvetica;
+    font-size: 14pt;
+    text-align: center;
+    padding: 5px;
+    background-color: #FFCC66;
+}
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}
+.highslide-loading {
+    display: block;
+	color: white;
+	font-style: 'MS Sans Serif';
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+    text-decoration: none;
+	padding: 3px;
+	opacity: 0.60; /* w3c */
+	filter: alpha(opacity=60); /* ie */
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+    background-color: black;
+    
+    padding-left: 22px;
+    background-image: url(highslide/graphics/loader.gif);
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+    
+}
+
+a.highslide-credits,
+a.highslide-credits i {
+    padding: 2px;
+    color: white;
+    text-decoration: none;
+	font-size: 12px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+    color: white;
+    background-color: gray;
+}
+a.highslide-full-expand {
+	background: url(highslide/graphics/fullexpand.gif) no-repeat;
+	display: block;
+	margin: 0 10px 10px 0;
+	width: 34px;
+	height: 34px;
+}
+
+/* These must always be last */
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}

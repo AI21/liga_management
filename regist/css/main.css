@@ -1,0 +1,101 @@
+/* LigaTokai WebSite Leyout CSS */
+
+    body{
+        background-color: black;
+        margin:0 auto;
+        font-size:12px;
+    }
+    a{
+        color:#F00;
+    }
+    hr{
+        border-style: dotted none none none;
+        border-top-width: 2px;
+        height: 2px;
+    }
+    dd{
+        font-family:"ＭＳ　Ｐゴシック","Osaka";
+        font-size: 10px;
+        font-style: normal;
+        line-height: 15px;
+        letter-spacing: 1px
+    }
+    div#update {
+        font-family:"DotumChe","DotumChe";
+        background: #ffc; padding:0 5px;
+        border-right: solid 2px #ccc;
+        border-bottom: solid 2px #ccc;
+        border-left: solid 10px #fc6;
+    }
+
+    #container{
+        width: 100%;
+        margin:0 auto;
+        text-align: left;
+    }
+
+    #inner{
+        margin:0 10px;
+    }
+
+    .CenterLeft{
+        width: 931px;
+        float: left;
+    }
+
+    .center{
+        background-color: white;
+        width: 731px;
+        height: auto;
+        float: right;
+    }
+
+    /* 左余白設定 */
+    .left{
+        width: 200px;
+        height: 100%;
+        float: left;
+    }
+
+    /* 右余白設定 */
+    .right{
+        width: auto;
+        height: 100%;
+        float: right;
+    }
+
+    .clear{
+        clear:both;
+        line-height:0;
+        height:0;
+    }
+
+    /*--------------------------------
+     * 中央箇所設定
+     ---------------------------------*/
+    /* メニュー */
+    .menu {
+        float: left;
+        width: 180px;
+        height: 500px;
+    }
+    /* メイン画面 */
+    .main {
+    	clear: left;
+        float: left;
+        width: 550px;
+    }
+    /* コピーライト */
+    .copyright {
+        clear:left;
+   }
+    address{
+        text-align: center;
+        padding-top: 7px;
+        height: 25px;
+        margin: -5px;
+        font-size: 12px;
+        font-style: normal;
+        font-family: Verdana, Tahoma, sans-serif;
+        color: #333333;
+    }

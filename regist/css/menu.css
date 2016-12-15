@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/**/
+* html div.parent{overflow: visible;}
+/**/
+/*** コンテンツメニュー設定 ***/
+#MENU { float:left;width: 150px; }
+#MENU ul { list-style:none; margin: 0em; padding: 0em; }
+#MENU li img { visibility: hidden; height: 27px; }
+#MENU li a { border-bottom: solid 2px #CCC; display:block; }
+#MENU li a:hover, a:active { border-bottom: solid 2px #CCC; }
+
+
+/*** ロールオーバー画像[マウスOFF] ***/
+#MENU .info a { background-image: url(../images/menu_htmlimage.gif);}
+#MENU .team a { background-image: url(../images/menu_htmlimage1.gif);}
+#MENU .sche a { background-image: url(../images/menu_htmlimage3.gif);}
+#MENU .rank a { background-image: url(../images/menu_htmlimage4.gif);}
+#MENU .link a { background-image: url(../images/menu_htmlimage6.gif);}
+#MENU .kiya a { background-image: url(../images/menu_htmlimage5.gif);}
+#MENU .maps a { background-image: url(../images/menu_htmlimage7.gif);}
+/*** ロールオーバー画像[マウスON] ***/
+#MENU .info a:hover, a:active { background-image: url(../images/menu_htmlimageov.gif);} 
+#MENU .team a:hover, a:active { background-image: url(../images/menu_htmlimage1ov.gif);}
+#MENU .sche a:hover, a:active { background-image: url(../images/menu_htmlimage3ov.gif);}
+#MENU .rank a:hover, a:active { background-image: url(../images/menu_htmlimage4ov.gif);}
+#MENU .link a:hover, a:active { background-image: url(../images/menu_htmlimage6ov.gif);}
+#MENU .kiya a:hover, a:active { background-image: url(../images/menu_htmlimage5ov.gif);}
+#MENU .maps a:hover, a:active { background-image: url(../images/menu_htmlimage7ov.gif);}
+
+
+#MENU .qrcd { text-align:center; margin: 0.3em 0em 0.8em 0em;}
+#MENU .qrcd a:hover, a:active {  background-image: url();}

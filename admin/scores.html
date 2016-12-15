@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>セレクトボックス親子関係</title>
+<script type="text/javascript" src="./js/Select.js" charset="utf-8"></script>
+<script type="text/javascript"><!--
+
+var box1 = new SelectBox("sb1");
+box1.registOption(new SelectOption(null, "都道府県", "0", "color:gray;"));
+box1.registOption(new SelectOption(null, "東京都"  , "1"));
+box1.registOption(new SelectOption(null, "神奈川県", "2"));
+box1.registOption(new SelectOption(null, "埼玉県"  , "3"));
+box1.registOption(new SelectOption(null, "千葉県"  , "4"));
+
+var box2 = new SelectBox("sb2");
+box2.registOption(new SelectOption(null, "区市町村", "0", "color:gray;"));
+box2.registOption(new SelectOption("1" , "千代田区", "1"));
+box2.registOption(new SelectOption("1" , "中央区"  , "2"));
+box2.registOption(new SelectOption("2" , "横浜市"  , "3"));
+box2.registOption(new SelectOption("2" , "川崎市"  , "4"));
+box2.registOption(new SelectOption("3" , "与野市"  , "5"));
+box2.registOption(new SelectOption("4" , "千葉市"  , "6"));
+
+var box3 = new SelectBox("sb3");
+box3.registOption(new SelectOption(null, "詳細"    , "0", "color:gray;"));
+box3.registOption(new SelectOption("1" , "一番町"  , "1"));
+box3.registOption(new SelectOption("3" , "みなとみらい", "2"));
+box3.registOption(new SelectOption("6" , "マリンスタジアム", "3"));
+
+box1.setChild(box2);
+box2.setChild(box3);
+
+window.onload = function() {
+  box1.make(null);
+};
+
+//--></script>
+</head>
+<body>
+<form>
+<select id="sb1" onchange="box2.make(this.value);"></select>
+<select id="sb2" onchange="box3.make(this.value);"></select>
+<select id="sb3"></select>
+</form>
+</body>
+</html>

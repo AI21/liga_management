@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+    #ranking {
+        clear: left;
+        padding-left: 0em;
+    }
+    
+    table.rankings {
+      border-collapse: collapse;
+    }
+    table.rankings th,
+    table.rankings td {
+      padding: 2px 6px;
+      border: 1px solid #CCF;
+    }
+    table th {
+      background: #282D71;
+      text-align: center;
+      white-space: nowrap;
+      font-size: 80%;
+      font-weight:normal;
+      color: #FFF;
+    }
+    table .rankings col .ranks {
+      text-align: center;
+      background: #CBD5FF;
+    }
+    table.rankings col.score {
+      text-align: right;
+      background: #F2F5FF;
+    }
+    table.rankings col.names {
+      font-size: 90%;
+      background: #F2F5FF;
+    }
+    table.rankings col.team {
+      background: #F2F5FF;
+    }
+    table.rankings col.no {
+      text-align: right;
+      background: #F2F5FF;
+    }
+    
+    #TEAM, #KOJIN {
+        float: left;
+    }
+    #KOJIN {
+        margin-left: 20px;
+    }
+
+/* ゲーム勝敗表示 */
+    .RESULT {
+        width: 760px;
+        padding-top: 10px;
+    }
+    .DAYS {
+        /* width: 150px; */
+        color: #060;
+        padding:0px 0px 5px 20px;
+        font-size: 100%;
+        font-weight:bold;
+    }
+    .CARD1, .CARD2, .CARD3, .CARD4 {
+        clear: left;
+        width: 700px;
+        font-size: 80%;
+        color:#83562F;
+        margin: 0px 0px 3px 0px;
+        padding:1px 10px;
+        font-weight:bold;
+        border-bottom:solid 0.15em #282D71;
+        border-left:solid 10px #282D71;
+    }
+    .CARD2 {
+        border-bottom:solid 0.15em #D76F1A;
+        border-left:solid 10px #D76F1A;
+    }
+    .CARD3 {
+        border-bottom:solid 0.15em #008000;
+        border-left:solid 10px #008000;
+    }
+    .CARD4 {
+        border-bottom:solid 0.15em #FFBC01;
+        border-left:solid 10px #FFBC01;
+    }
+    
+    TABLE#GAMEDATA {
+        font-size: 140%;
+        border:solid 1px #BBBB88;
+        background-color: #EEEECC;
+    }
+    TABLE .vs {
+        width: 30px;
+        padding-top: 15px;
+        text-align:center;
+    }
+    TABLE .vs {
+        width: 30px;
+        padding-top: 15px;
+        text-align:center;
+    }
+    TABLE .HomeTeamName, .AwayTeamName {
+        width: 230px;
+        font-size: 140%;
+        text-align: center;
+    }
+    TABLE .HomeTeamName {
+        padding: 10px 0px 0px 0px;
+        border-right: none;
+    }
+    TABLE .AwayTeamName {
+        padding: 10px 0px 0px 10px;
+        border-left: none;
+    }
+    TABLE .boxd, .boxw, .boxl {
+        width: 60px;
+        padding: 10px 0px 0px 0px;
+        font-size: 140%;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+        border-bottom: solid 1px #000;
+    }
+    TABLE .boxw { color: blue; }
+    TABLE .boxl { color: red; }
+    TABLE .boxd { color: #000; }
+    TABLE #QuarterData {
+        margin:0px;
+        padding:0px;
+        border:none;
+    }
+    TABLE .quarterView {
+        border-top: solid 1px #000;
+        border-bottom: solid 1px #000;
+        border-left: none;
+        border-right: none;
+        width: 50px;
+        padding:5px 0px;
+        font-weight:bold;
+        background-color: #BBBB88;
+    }
+    TABLE .quarterBox {
+        border-top: solid 1px #000;
+        border-bottom: solid 1px #000;
+        border-left: none;
+        border-right: none;
+    }
+    TABLE .quarter {
+        border-top: solid 1px #000;
+        border-bottom: solid 1px #000;
+        border-left: none;
+        border-right: none;
+        width: 60px;
+        font-weight: bold;
+        text-align: center;
+        padding: 0.2em;
+    }
+
+/* チーム通算成績データ */
+    TABLE.teamVersusData {
+        margin:0px 0px 10px 30px;
+        font-weight: bold;
+        border: none;
+    }
+    TABLE.teamVersusData th {
+        width:120px;
+        background-color:#4D639A;
+    }
+    TABLE.teamVersusData td {
+        width:80px;
+        padding:0px 20px 0px 0px;
+        text-align: right;
+        border-top: none;
+        border-right: none;
+    }
+    TABLE.QuarterDatas {
+        margin:0px;
+        padding:0px;
+        border:none;
+    }
+    TABLE.TeamGameDatas {
+        font-size: 120%;
+        border:solid 1px #4A4AA5;
+        background-color: #ECE9D8;
+    }
+    TABLE .HomeTeamNames, .AwayTeamNames {
+        width: 200px;
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+    }
+    TABLE .teamwin, .teamlose, .teamdraw {
+        width: 60px;
+        font-size: 120%;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+    }
+    TABLE .teamwin  { color: blue; }
+    TABLE .teamlose { color: #F8614B; }
+    TABLE .teamdraw { color: #000; }
+    TABLE .quartershome {
+        border: solid 1px #000;
+        width: 30px;
+        font-weight: bold;
+        text-align: center;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+    TABLE .quartersaway {
+        border: solid 1px #000;
+        width: 30px;
+        font-weight: bold;
+        text-align: center;
+        border-top: none;
+        border-right: none;
+    }
+    TABLE .quarterBoxs {
+        border: solid 1px #000;
+        padding: 0px;
+    }
+    .GAMEWIN, .GAMELOSE, .GAMEDROW {
+        clear: left;
+        width: 600px;
+        height: 23px;
+        font-size: 80%;
+        color:#83562F;
+        margin: 0px 0px 3px 10px;
+        padding:1px 10px;
+        font-weight:bold;
+    }
+    .GAMEWIN {
+        border-bottom:solid 0.15em #2F6BB3;
+        border-left:solid 10px #2F6BB3;
+    }
+    .GAMELOSE {
+        border-bottom:solid 0.15em #BF0000;
+        border-left:solid 10px #BF0000;
+    }
+    .GAMEDROW {
+        border-bottom:solid 0.15em #589A58;
+        border-left:solid 10px #589A58;
+    }
+    .EXEDAYS {
+        font-size: 100%;
+        color:#83562F;
+    }
+
+/* 個人得点データ */
+    .INDIVIDUALDATA TH {
+        font-weight: bold;
+        background-color:#CCC;
+        color:#000;
+    }
+    TABLE.INDIVIDUALDATA .TeamRegistNumber {
+        width: 30px;
+        text-align: center;
+    }
+    TABLE.INDIVIDUALDATA .HomeTeamRegistName, .AwayTeamRegistName {
+        width: 130px;
+        text-align: center;
+    }
+    TABLE.INDIVIDUALDATA .3POINT {
+        width: 46px;
+        padding: 0px 4px 0px 0px;
+        text-align: right;
+    }
+    TABLE.INDIVIDUALDATA .freeThrow {
+        width: 31px;
+        text-align: center;
+    }
+    TABLE.INDIVIDUALDATA .IndiTotalScore {
+        width: 41px;
+        text-align: center;
+    }
+    .INDI-TEAM {
+        width: 100%;
+        height: 20px;
+        color:#83562F;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        font-weight:bold;
+        /* border-bottom:solid 0.15em #D76F1A; */
+        border-left:solid 10px #549654;
+        text-align:left;
+		text-indent: 10px;
+    }

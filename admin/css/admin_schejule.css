@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+#imenumeric { ime-mode: disabled; }
+.rarrymenu a, .selectrarrymenu a {
+  float: left;
+  width: 160px;
+  height: 32px;
+}
+  float: left;
+  voice-family: inherit;
+  width: 160px;
+  height: 24px;
+  text-decoration: none;
+}
+.rarrymenu a:link, .rarrymenu a:visited {
+  color: #FFF;
+  display: block;
+  background:  url(./img/rarry_menu.gif);
+  padding: 8px 0 0 35px;
+}
+.selectrarrymenu a:link, .selectrarrymenu a:visited {
+  color: #FFF;
+  background:  url(./img/rarry_menu.gif) 0 -32px;
+  padding: 8px 0 0 35px;
+}
+.rarrymenu a:hover {
+  color: #FFF;
+  background:  url(./img/rarry_menu.gif) 0 -32px;
+  padding: 8px 0 0 35px;
+}
+.selectrarrymenu a:hover {
+  color: #FFF;
+  background:  url(./img/rarry_menu.gif) 0 -32px;
+  padding: 8px 0 0 35px;
+}
+
+.scoreup_selectYM {
+}
+.scoreup_selectYM .year {
+    clear: left;
+    float: left;
+    width: 40px;
+    margin-left: 10px;
+    padding-left:10px;
+    font-weight: bold;
+    background-color: #FF9600;
+}
+.scoreup_selectYM .month {
+    float: left;
+    width: 30px;
+    padding-left: 5px;
+    font-weight: bold;
+    background-color: #D6DBCE;
+}

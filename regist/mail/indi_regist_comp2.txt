@@ -1,0 +1,7 @@
+個人登録完了
+
+チーム ： __TEAM_NAME__
+
+選手登録人数・金額
+__REGIST_MEMBER_NUM__ 人
+__REGIST_MANEY__ 円

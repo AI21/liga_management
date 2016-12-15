@@ -1,0 +1,81 @@
+
+.imezen { ime-mode: active; }
+.imehan1 { ime-mode: disabled; }
+.imehan2 { ime-mode: inactive; }
+#team table {
+  width:100%;border: 1px #E3E3E3 solid;border-collapse: collapse;border-spacing: 0;
+}
+#team th {
+  padding-left:10px;border:1px #E3E3E3 solid;white-space: nowrap;text-align:left;font-weight:nomal;
+}
+#team td {
+  width:100%;padding-left:10px;border:1px #E3E3E3 solid;white-space: nowrap;text-align:left;
+}
+
+#teamfm table {
+  border: 1px #E3E3E3 solid;border-collapse: collapse;border-spacing: 0;
+}
+#teamfm th {
+  padding-left:10px;border:1px #E3E3E3 solid;white-space: nowrap;text-align:left;
+}
+#teamfm td {
+  width:100%;padding-left:10px;border:1px #E3E3E3 solid;white-space: nowrap;text-align:left;
+}
+
+#outMamberDataTable {
+    width: auto;
+    }
+    #outMamberDataTable td {
+        text-align: left;
+        }
+        #outMamberDataTable tbody td:first-child,
+        #outMamberDataTable tbody td:last-child {
+            text-align: center;
+        }
+        #outMamberDataTable tbody td:nth-child(2) {
+            padding-right: 2em;
+            text-align: right;
+        }
+
+select .black { background:#000000;color:#FFFFFF; }
+select .gray { background:#808080; }
+select .silver { background:#C0C0C0; }
+select .white { background:#FFFFFFE; }
+select .maroon { background:#800000;color:#FFFFFF; }
+select .red { background:#FF0000;color:#FFFFFF; }
+select .light-red { background:#ff0000;color:#ｆｆ0066; }
+select .purple { background:#800080;color:#FFFFFF; }
+select .light-purple { background:#9999ff; }
+select .pink { background:#FF99FF; }
+select .green { background:#008000;color:#FFFFFF; }
+select .light-green { background:#99cc00; }
+select .lime { background:#00FF00; }
+select .olive { background:#808000;color:#FFFFFF; }
+select .yellow { background:#FFFF00; }
+select .light-yellow { background:#FFFF99; }
+select .navy { background:#000080;color:#FFFFFF; }
+select .blue { background:#0000FF;color:#FFFFFF; }
+select .light-blue { background:#3366ff; }
+select .teal { background:#008080;color:#FFFFFF; }
+select .aqua { background:#ccffff; }
+select .orange { background:#FF9900; }
+select .gold { background:#FFD700; }
+/*
+#member table {
+  width:100%;border: 0px #E3E3E3 solid;border-collapse: collapse;border-spacing: 0;
+}
+#member th {
+  border:1px #E3E3E3 solid;white-space: nowrap;text-align:canter;font-weight:nomal;background-color:#D1DFA8;
+}
+#member td {
+  padding:1px 10px;border:1px #E3E3E3 solid;background-color:#F4F1EC;
+}
+#memberfm table {
+  width:100%;border: 1px #E3E3E3 solid;border-collapse: collapse;border-spacing: 0;
+}
+#memberfm th {
+  border:1px #E3E3E3 solid;white-space: nowrap;text-align:canter;font-weight:nomal;background-color:#80A6E8;
+}
+#memberfm td {
+  padding:1px 10px;border:1px #E3E3E3 solid;background-color:#F4F1EC;
+}

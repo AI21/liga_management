@@ -1,0 +1,269 @@
+/* header */
+#header {
+	/* position:relative;
+	width:800px;
+	height:38px;
+	background:url(./img/bg-header.gif) no-repeat left bottom; */
+	clear: left;
+}
+/*------------------
+  ページ共通
+ -------------------*/
+body {
+	width: 100%;
+	text-align: center;
+	font-size: 80%;
+}
+h1 {
+	clear: left;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	background-color: #FFCC00;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Arial,Verdana,"ＭＳ Ｐゴシック",sans-serif;
+	font-size: 14px;
+	letter-spacing: 2em;
+	text-indent: 5px;
+}
+
+/*------------------
+  ヘッダエリア
+ -------------------*/
+#headerArea {
+	text-align:right;
+}
+#titleArea {
+	text-align: center;
+	font-family:Impact,Charcoal;
+	font-size: 250%;
+	color: #000099;
+}
+
+/*------------------
+  メインブロック
+ -------------------*/
+#mainContents {
+	margin: 0 auto;
+	width: 940px;
+	padding: 0 10px;
+	text-align: left;
+}
+
+/*------------------
+  チーム情報エリア
+ -------------------*/
+#teamDataArea {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	background-color:#fff;
+}
+#teamDataTable  {
+	margin: auto;
+	width: 100%;
+	border-top:1px solid #4E6DC0;
+	border-left:1px solid #4E6DC0;
+	border-collapse:collapse;
+	border-spacing:0;
+	background-color:#ffffff;
+	empty-cells:show;
+	text-align:left;
+	}
+	#teamDataTable th{
+		width: 180px;
+		border-right:1px solid #4E6DC0;
+		border-bottom:1px solid #4E6DC0;
+		color:#330000;
+		background-color:#E5F2FF;
+		background-image:url(../img/table-back.gif);
+		background-position:left top;
+		padding:0.3em 1em;
+	}
+	#teamDataTable td{
+		border-right:1px solid #4E6DC0;
+		border-bottom:1px solid #4E6DC0;
+		padding:0.3em 1em;
+	}
+
+/*------------------
+  チーム画像エリア
+ -------------------*/
+#teamImageArea {
+	width: auto;
+	text-align: center;
+	padding: 20px 0;
+	background-color:#fff;
+}
+#teamImageTable  {
+	margin: auto;
+	width: 100%;
+	border-top:1px solid #4E6DC0;
+	border-left:1px solid #4E6DC0;
+	border-collapse:collapse;
+	border-spacing:0;
+	background-color:#ffffff;
+	empty-cells:show;
+	text-align:center;
+	}
+	#teamImageTable th{
+		width: 240px;
+		border-right:1px solid #4E6DC0;
+		border-bottom:1px solid #4E6DC0;
+		color:#330000;
+		background-color:#E5F2FF;
+		background-image:url(../img/table-back.gif);
+		background-position:left top;
+		padding:0.3em 1em;
+	}
+	#teamImageTable td{
+		border-right:1px solid #4E6DC0;
+		border-bottom:1px solid #4E6DC0;
+		padding:0.3em 1em;
+	}
+
+/*------------------
+  登録選手エリア
+ -------------------*/
+#mamberDataArea {
+	width: 100%;
+	text-align: center;
+	}
+	#mamberDataArea #header {
+		margin: auto;
+		padding-top:5px;
+	}
+	#mamberDataArea .member-regist_conf {
+		text-align: left;
+	}
+	#mamberDataArea #pagemove {
+		margin-top: 10px;
+		}
+		#mamberDataArea #pagemove input {
+			margin-right: 2em;
+		}
+#mamberDataTable  {
+	clear: left;
+	margin: auto;
+	width: 100%;
+	/*border: 2x #FF6F00 solid;*/
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	#mamberDataTable th{
+		border:1px #E3E3E3 solid;
+		white-space: nowrap;
+		text-align:canter;
+		font-weight:nomal;
+		background-color:#D1DFA8;
+	}
+	#mamberDataTable td{
+		white-space: nowrap;
+		padding:1px 10px;
+		border:1px #E3E3E3 solid;
+	}
+	#mamberDataTable .td_w {
+		background-color:#ffffff;
+	}
+	#mamberDataTable .td_g {
+		background-color:#F4F1EC;
+	}
+	#outMamberDataTable  {
+		margin: auto;
+		width: 100%;
+		/*border: 2x #FF6F00 solid;*/
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	#outMamberDataTable th{
+		border:1px #E3E3E3 solid;
+		white-space: nowrap;
+		text-align:canter;
+		font-weight:nomal;
+		background-color:#80A6E8;
+	}
+	#outMamberDataTable td{
+		padding:1px 10px;
+		border:1px #F4F1EC solid;
+	}
+
+/*------------------
+  選手検索フォーム
+ -------------------*/
+#member-search {
+	margin: 10px auto;
+	width: 600px;
+	text-align: center;
+	}
+	#member-search table#memberfm {
+		width: 96%;
+		text-align: left;
+		}
+		#member-search table#memberfm th {
+			padding: 4px 0;
+			text-indent: 2em;
+			color: #ffffff;
+		}
+		#member-search table#memberfm td {
+			padding-left: 1em;
+		}
+
+/* header tabs */
+#top-navigation {
+	/*position:absolute;*/
+	top: 5px;
+	left:20px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+	#top-navigation li {
+		float:left;
+		margin:0 3px 0 0;
+		height:34px;
+	}
+	#top-navigation li a {
+		float:left;
+		display:block;
+		height:20px;
+		line-height:19px;
+		color:#669900;
+		padding:4px 0 0 0;
+	}
+	#top-navigation li span {
+		float:left;
+	}
+	#top-navigation li span span {
+		padding:7px 10px 0 10px;
+	}
+	#top-navigation .active {
+		padding:0;
+		height:34px;
+		font-weight:bold;
+		background:url(../img/tab-active.gif) repeat-x top;
+		margin-right:2px;
+	}
+	#top-navigation li.active span {
+		background:url(../img/tab-active-left.gif) no-repeat left top;
+		height:34px;
+	}
+	#top-navigation li.active span span {
+		background:url(../img/tab-active-right.gif) no-repeat right top;
+		height:23px;
+		padding:11px 10px 0 10px;
+		line-height:19px;
+		color:#606060;
+	}
+/* middle */
+#middle {
+	clear: both;
+	margin: auto;
+	text-align: center;
+	background-color:#fff;
+	padding:10px;
+	border:1px solid #f70;
+}
+.example {
+	visibility: hidden;
+}

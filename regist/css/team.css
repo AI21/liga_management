@@ -1,0 +1,81 @@
+dd{
+    font-family:"ÇlÇrÅ@ÇoÉSÉVÉbÉN","Osaka";
+    font-size: 10px;
+    font-style:normal;
+    line-height: 15px;
+    letter-spacing:1px
+}
+div#team {
+}
+div#picture {
+    float: left;
+    width: 280px;
+    height: 180px;
+}
+div#jouhou {
+    float: left;
+    width: 300px;
+}
+div.explanation {
+    text-align: center;
+}
+
+div.titles {
+    clear: left;
+    width: 578px;
+    font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #CCCCCC;
+}
+div.tname {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+div.web {
+    float: left;
+    width: 378px;
+    text-align: center;
+}
+
+div.itiran {
+    clear: left;
+    width: 578px;
+    font-family: "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ|ìôïù";
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #CCCCFF;
+}
+div.team {
+    float: left;
+    width: 200px;
+    text-align: center;
+    background-color: #FFFFCC;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+div.site {
+    float: left;
+    width: 378px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+div.classimg {
+    clear: left;
+    padding-top: 14px;
+}
+
+.space {
+    height: 20px;
+}
+.example {
+    visibility: hidden;
+}

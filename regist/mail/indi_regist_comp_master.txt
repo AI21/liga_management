@@ -1,0 +1,7 @@
+個人登録の申し込みがあります。
+
+チーム ： __TEAM_NAME__
+
+選手登録人数・金額
+__NON_PAYMENT_MEMBERS__ 人
+__NON_PAYMENT_YEN__ 円

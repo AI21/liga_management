@@ -1,0 +1,34 @@
+.imezen { ime-mode: active; }
+.imehan1 { ime-mode: disabled; }
+.imehan2 { ime-mode: inactive; }
+#member table {
+  width:100%;border: 1px #E3E3E3 solid;border-collapse: collapse;border-spacing: 0;
+}
+#member th {
+  border:1px #E3E3E3 solid;white-space: nowrap;text-align:canter;font-weight:nomal;background-color:#D1DFA8;
+}
+#member td {
+  padding:1px 10px;border:1px #E3E3E3 solid;background-color:#F4F1EC;
+}
+
+#memberfm table {
+  width:100%;border: 1px #E3E3E3 solid;border-collapse: collapse;border-spacing: 0;
+}
+#memberfm th {
+  border:1px #E3E3E3 solid;white-space: nowrap;text-align:canter;font-weight:nomal;background-color:#80A6E8;
+}
+#memberfm td {
+  padding:1px 10px;border:1px #E3E3E3 solid;background-color:#F4F1EC;
+}
+#attention dt {
+  clear: left;
+  float: left;
+  width: 120px;
+}
+#attention dd {
+  float: left;
+  width: 590px;
+  margin: 0;
+  padding: 3px;
+  text-align: left;
+  border-bottom: dotted 1px #ccc;

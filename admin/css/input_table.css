@@ -1,0 +1,24 @@
+@CHARSET "utf-8";
+
+#input_table table {
+    width: 730px;
+}
+
+#input_table th {
+    width: 140px;
+    background-color: #9097A9;
+    text-align: center;
+}
+#input_table td {
+    width: 585px;
+    background-color: #ECECEC;
+    text-indent: 5px;
+    border:1px solid #fff;
+    font-size:110%;
+}
+#input_table .subdata {
+    background:#D8D8D8;
+    font-weight:bold;
+    font-size:120%;
+    text-align:center;
+}

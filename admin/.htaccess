@@ -1,0 +1,9 @@
+
+#AuthUserFile "/var/www/vhosts/liga-tokai.com/subdomains/management/httpsdocs/admin/htpasswd/.htpasswd"
+AuthUserFile "/home/worksai/liga-tokai.com/public_html/management.liga-tokai.com/admin/htpasswd/.htpasswd"
+
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
+
+

@@ -1,0 +1,195 @@
+body {
+    font-size: 80%;
+}
+
+/* 画面幅 */
+div#mtitle {
+    width: 580px;
+}
+/* ==================================================
+ ** チーム基本データ表示
+ * ----------------------------------------------- */
+/* チーム名 */
+div.teamname {
+    font-family:Impact,Charcoal;
+    font-size: 36px;
+	color: #000099;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    letter-spacing: 2px;
+    text-indent: 20px;
+}
+/* サムネイル画像箇所 */
+div#picture {
+    height: 200px;
+    text-align: center;
+}
+/* チーム情報箇所 */
+dt.category {
+	font-family: "ＭＳ ゴシック", "Osaka－等幅";
+    background:#ffffcc; padding:0 5px;
+    border-right:solid 2px #cccccc;
+    border-bottom:solid 2px #ccccc;
+    border-left:solid 10px #ffcc66;
+}
+/* チーム紹介コメント */
+div.bar {
+    clear: left;
+    text-align: center;
+    width: auto;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    background-color: #FFCC00;
+    font-family: "ＭＳ Ｐゴシック";
+    font-size: 14px;
+    letter-spacing: 2em;
+    text-indent: 5px;
+}
+
+/* ==================================================
+ ** 所属選手箇所
+ * ----------------------------------------------- */
+/* テーブル上部データ説明欄全体 */
+div#t_title {
+    clear: left;
+    width: 578px;
+    font-family: "ＭＳ ゴシック", "Osaka－等幅";
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #CCCCCC;
+}
+/* 番号 */
+div.t_no {
+    float: left;
+    width: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* 名前 */
+div.t_name {
+    float: left;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left-width: 1px;
+    border-left-style: dotted;
+}
+/* ポジション */
+div.t_posision {
+    float: left;
+    width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: dotted;
+    border-left-style: dotted;
+}
+/* 身長 */
+div.t_height {
+    float: left;
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* 年齢 */
+div.t_age {
+    float: left;
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: dotted;
+    border-left-style: dotted;
+}
+/* コメント */
+div.t_comment {
+    float: left;
+    width: 258px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.title {
+    width: 578px;
+    font-family: "ＭＳ ゴシック", "Osaka－等幅";
+    clear: left;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+/* 番号(個別データ) */
+div.no {
+    float: left;
+    width: 35px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+/* 名前(個別データ) */
+div.name {
+    float: left;
+    width: 100px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border-left-width: 1px;
+    border-left-style: dotted;
+}
+/* ポジション(個別データ) */
+div.posision {
+    float: left;
+    width: 80px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: dotted;
+    border-left-style: dotted;
+}
+/* 身長(個別データ) */
+div.height {
+    float: left;
+    width: 50px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+/* 年齢(個別データ) */
+div.age {
+    float: left;
+    width: 50px;
+    text-align: center;
+    padding-top: 3px;
+    vertical-align : middle;
+    padding-bottom: 2px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: dotted;
+    border-left-style: dotted;
+}
+/* コメント(個別データ) */
+div.comment {
+    float: left;
+    width: 250px;
+    vertical-align : middle;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+.introduction {
+    font-size: 24px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}

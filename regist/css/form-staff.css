@@ -1,0 +1,53 @@
+div#staff-form {
+    width: 520px;
+    height: 165px;
+    padding-top: 12px;
+}
+div.fm-main {
+    crear: left;
+    width: 520px;
+}
+div.names {
+    clear: left;
+    float: left;
+    width: 80px;
+    height: 20px;
+    text-align: right;
+    padding-top: 5px;
+}
+div.dotto {
+    float: left;
+    width: 20px;
+    padding-top: 2px;
+}
+div.send {
+    float: left;
+    width: 420px;
+    color: #7A7A7A;
+}
+dl#privercy {
+    font-family:"ÇlÇrÅ@ÇoÉSÉVÉbÉN","Osaka";
+}
+dt.po-kojin {
+    font-size: 12px;
+    font-family:"ÇlÇrÅ@ÉSÉVÉbÉN","Osaka";
+    border-top:solid 1px #ccc;
+    border-right:solid 10px #fcc;
+    border-bottom:solid 1px #ccc;
+    border-left:solid 10px #fcc;
+}
+dd.po-naiyou { 
+    font-style: normal;
+    font-size: 10px;
+    font-family:"ÇlÇrÅ@ÇoÉSÉVÉbÉN","Osaka";
+    line-height: 15px;
+    letter-spacing: 1px 
+}
+
+p#jimukyoku {
+    text-align: right;
+    color: #0033CC;
+}
+p#policy,#fm-submit,#doui {
+    text-align: center;
+}

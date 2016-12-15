@@ -1,0 +1,61 @@
+/* header */
+#header {
+    position:relative;
+    width:800px;
+    height:38px;
+    /* background:url(../../../php/admin/img/bg-header.gif) no-repeat left bottom; */
+}
+/* header tabs */
+#top-navigation {
+    position:absolute;
+    top: 5px;
+    left:20px;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#top-navigation li {
+    float:left;
+    margin:0 3px 0 0;
+    height:34px;
+}
+#top-navigation li a {
+    float:left;
+    display:block;
+    height:20px;
+    line-height:19px;
+    color:#669900;
+    padding:4px 0 0 0;
+}
+#top-navigation li span {
+    float:left;
+}
+#top-navigation li span span {
+    padding:7px 10px 0 10px;
+}
+#top-navigation li.active {
+    padding:0;
+    height:34px;
+    font-weight:bold;
+    background:url(../../../php/admin/img/tab-active.gif) repeat-x top;
+    margin-right:2px;
+}
+#top-navigation li.active span {
+    background:url(../../../php/admin/img/tab-active-left.gif) no-repeat left top;
+    height:34px;
+}
+#top-navigation li.active span span {
+    background:url(../../../php/admin/img/tab-active-right.gif) no-repeat right top;
+    height:23px;
+    padding:11px 10px 0 10px;
+    line-height:19px;
+    color:#606060;
+}
+/* middle */
+#middle {
+    float:left;
+    width:800px;
+    background-color:#FFF;
+    padding:10px;
+    border:1px solid #f70;
+}

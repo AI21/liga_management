@@ -1,0 +1,47 @@
+/* LigaTokai WebSite Menu CSS */
+
+    *{
+        list-style:none;
+        margin:0px;
+        padding:0px;
+    }
+
+    
+    #menu {
+        width: 170px;
+        border-style: solid solid none solid;
+        border-color: #94AA74;
+        border-width: 1px;
+    }
+    
+    #menu li a {
+        height: 32px;
+        font-family: "Arial", "ÇlÇr ÉSÉVÉbÉN", "Osaka-ìôïù", monospace;
+        font-size: 14px;
+        font-weight: bold;
+        voice-family: inherit;
+        height: 24px;
+        text-decoration: none;
+    }   
+    
+    #menu li a:link, #menu li a:visited {
+        color: #FFFFFF;
+        display: block;
+        background: url(../imgs/gif/v6.gif);
+        background-repeat:no-repeat;
+        padding: 8px 0 0 50px;
+    }
+    
+    #menu li a:hover {
+        color: #666666;
+        background: url(../imgs/gif/v6.gif) 0 -32px;
+        background-repeat:no-repeat;
+        padding: 8px 0 0 50px;
+    }
+    
+    #menu li a:active {
+        color: #666666;
+        background: url(../imgs/gif/v6.gif) 0 -64px;
+        background-repeat:no-repeat;
+        padding: 8px 0 0 50px;
+    }

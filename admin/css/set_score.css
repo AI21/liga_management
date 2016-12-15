@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* 入力モードの指定 */
+.imenumeric { ime-mode: disabled; }
+.totalscore { border:none;font-size:120%;font-weight:bold;text-align:center; }
+.inditotalscore { border:none;font-size:100%;font-weight:bold;text-align:center; }
+
+#ranking {
+	clear: left;
+	padding-left: 0em;
+}
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+td, th {
+	padding: 0;
+	border: none;
+	/*white-space: nowrap;
+	overflow: hidden;*/
+}
+
+/*th {
+   white-space: pre;
+}*/
+
+thead, tfoot {
+	background-color: #9097A9;
+}
+
+
+table.rankings {
+  border-collapse: collapse;
+}
+table.rankings th,
+table.rankings td {
+  padding: 2px 6px;
+  border: 1px solid #CCF;
+}
+table th {
+  background: #282D71;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 80%;
+  font-weight:normal;
+  color: #FFF;
+}
+table .rankings col .ranks {
+  text-align: center;
+  background: #CBD5FF;
+}
+table.rankings col.score {
+  text-align: right;
+  background: #F2F5FF;
+}
+table.rankings col.names {
+  font-size: 90%;
+  background: #F2F5FF;
+}
+table.rankings col.team {
+  background: #F2F5FF;
+}
+table.rankings col.no {
+  text-align: right;
+  background: #F2F5FF;
+}
+
+#TEAM, #KOJIN {
+	float: left;
+}
+#KOJIN {
+	margin-left: 20px;
+}
+
+/* ゲーム勝敗表示 */
+.RESULT {
+	width: 760px;
+	padding-top: 0px;
+}
+.DAYS {
+	/* width: 150px; */
+	color: #060;
+	padding:0px 0px 5px 20px;
+	font-size: 100%;
+	font-weight:bold;
+}
+.CARD1, .CARD2, .CARD3, .CARD4 {
+	clear: left;
+	width: 700px;
+	font-size: 80%;
+	color:#83562F;
+	margin: 0px 0px 3px 0px;
+	padding:1px 10px;
+	font-weight:bold;
+	border-bottom:solid 0.15em #282D71;
+	border-left:solid 10px #282D71;
+}
+.CARD2 {
+	border-bottom:solid 0.15em #D76F1A;
+	border-left:solid 10px #D76F1A;
+}
+.CARD3 {
+	border-bottom:solid 0.15em #008000;
+	border-left:solid 10px #008000;
+}
+.CARD4 {
+	border-bottom:solid 0.15em #FFBC01;
+	border-left:solid 10px #FFBC01;
+}
+
+table#GAMEDATA {
+	float: left;
+	width: 747px;
+	font-size: 100%;
+	border:solid 1px #BBBB88;
+	background-color: #EEEECC;
+	border-spacing: 0px;
+}
+table#GAMEDATA thead td{
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+	border-bottom:1px solid #000;
+	font-weight:bold;
+	color:#000;
+	background-color:#E2EBED;
+}
+table#GAMEDATA .antiwarLine {
+	border-top:1px dotted #000;
+	border-bottom:1px dotted #000;
+}
+table .vs {
+	width: 30px;
+	padding-top: 15px;
+	text-align:center;
+}
+table .HomeTeamName, .AwayTeamName {
+	width: 200px;
+	font-size: 140%;
+	text-align: center;
+}
+table .HomeTeamName {
+	padding: 10px 0px 0px 0px;
+	border-right: none;
+}
+table .AwayTeamName {
+	padding: 10px 0px 0px 10px;
+	border-left: none;
+}
+table .boxd, .boxw, .boxl {
+	width: 60px;
+	padding: 10px 0px 0px 0px;
+	font-size: 140%;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+}
+table .boxw {
+	color: red;
+}
+table .boxl {
+	color: blue;
+}
+table .boxd {
+	color: #000;
+}
+table #QuarterData {
+	margin:0px;
+	padding:0px;
+	border:none;
+}
+
+table .quarterView {
+	width: 50px;
+	font-weight:bold;
+	background-color: #BBBB88;
+	text-align: center;
+}
+table .quarterBox {
+	border-left: none;
+	border-right: none;
+}
+table .quarter {
+	border-right: none;
+	width: 60px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* 個人得点データ */
+.indi_th {
+	background-color:#CCC;
+	font-weight: bold;
+	color:#000;
+	border:solid 1px #5067A0;
+}
+.indi_data {
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border-collapse:collapse;
+	font-size: 120%;
+}
+.indi_data th {
+	font-weight: bold;
+	background-color:#ccc;
+	color:#000;
+	border:solid 1px #5067A0;
+}
+.indi_data td {
+	border:solid 1px #5067A0;
+}
+.player_number {
+	width: 20px;
+	text-align: center;
+}
+.player_name {
+	width: 120px;
+	text-align: center;
+}
+.3POINT {
+	/* width: 50px; */
+}
+.ft {
+	width: 28px;
+	text-align: center;
+}
+table.indi_data .IndiTotalScore {
+	width: 41px;
+	text-align: center;
+}
+.indi_team {
+	font-size: 140%;
+	height: 20px;
+	color:#83562F;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	font-weight:bold;
+	/* border-bottom:solid 0.15em #D76F1A; */
+	border-left:solid 10px #F18730;
+	text-align:left;
+	text-indent: 10px;
+}
+
+div.baloon {
+   font-size: 11px;
+   color: #900;
+   position: absolute;
+   padding-left: 5px;
+   background: url("../img/baloon.gif") no-repeat top left;
+   z-index: 1;
+}
+
+div.baloon a {
+   color: blue;
+   text-decoration: none;
+   padding: 2px;
+   margin-right: 2px;
+}
+
+div.baloon a:hover {
+   background-color: #eef;
+}
+
+div.baloon div {
+   background: url("../img/baloon_right.gif") no-repeat top right;
+   padding: 7px 7px 14px 0;
+   white-space: nowrap;
+}
+
+/* コメント入力用 */
+button#gameReportBtn {
+	width: 80px;
+	padding: 10px;
+	background-color: #c9c9c9;
+	border-radius: 4px;
+}
+.graylayer {
+	display:none;
+	position: fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: #000;
+	opacity:.7;
+	filter(alpha=70);
+}
+#setGameReportWindow {
+	padding: 20px;
+	display:none;
+	position: fixed;
+	top: 50%;
+	left:50%;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#99ffffff,EndColorStr=#99ffffff);
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 1.5em;
+	color: #fff;
+	text-shadow:rgba(0,0,0,.8) -1px -1px;
+	border-radius: 5px;
+	z-index: 20;
+}
+#dialog_gameReport {
+	}
+	#dialog_gameReport textarea#txt_best_higher_home,
+	#dialog_gameReport textarea#txt_best_higher_away {
+		width: 315px;
+		height: 60px;
+		margin: 5px;
+	}
+	#dialog_gameReport textarea#txt_report {
+		width: 730px;
+		height: 160px;
+	}

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size:12px;
+}
+a{
+    color:#F00;
+}
+hr{ 
+    border-style: dotted none none none; 
+    border-top-width: 2px; 
+    height: 2px; 
+}
+dd{ 
+    font-family:"ÇlÇrÅ@ÇoÉSÉVÉbÉN","Osaka";
+    font-size: 10px;
+    font-style:normal;
+    line-height: 15px;
+    letter-spacing:1px 
+    width:530px;
+}
+dt.update {
+    font-family:"DotumChe","DotumChe";
+    background:#ffc; padding:0 5px;
+    border-right:solid 2px #ccc;
+    border-bottom:solid 2px #ccc;
+    border-left:solid 10px #fc6;
+}
+div.houkoku {
+    padding:0 5px;
+    text-indent: 8px;
+}
+.style1 {color: #0033CC}
+.style2 {
+    color: #0000FF;
+    font-weight: bold;
+}
+.style3 {
+    color: #FF0000;
+    font-weight: bold;
+}
+div#tournament {
+    width: 450px;
+    padding-top: 26px;
+    padding-bottom: 100px;
+    margin-left: 60px;
+    font-family: "ÇlÇr Çoñæí©","MS PMincho";
+    font-size: 16px;
+    font-weight: bold;
+	background-image: url(../tm2008/images/rogo08_02-2.gif);
+	background-repeat:no-repeat;
+}
+.sample dt{
+    color:#FFFFFF;
+    background-color:#2F98CC;
+    padding:0.2em 0.5em;
+}
+.sample dd{
+    font-size: 12px;
+    border-right:1px solid #663300;
+    border-bottom:1px solid #663300;
+    margin-left: 5px;
+    padding:0.2em -3em;
+}

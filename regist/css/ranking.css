@@ -1,0 +1,100 @@
+
+body{
+    font-size:0.8em;
+    font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+img{
+    border:0px;
+}
+thead td{
+    font-weight:bold;
+    color:#000;
+    background-color:#E2EBED;
+}
+table, tr, th, td{
+    border:1px solid #000;
+    border-collapse: collapse;
+}
+th {
+    background-color:#0065FD;
+    color:#FFF;
+}
+td {
+    text-align: center;
+    padding:2px;
+}
+h1{
+    font-size:1.3em;
+    margin-bottom:0px;
+}
+table,h1,p,#ads{
+    margin-left:10px;
+}
+#ads{
+    margin-top:20px;
+}
+
+/* These classes are used by the script as rollover effect for table 1 and 2 */
+
+/* チームランキングのカラーリング */
+.tableRollOverEffect1 {
+    background-color:#317082;
+    color:#FFF;
+}
+.tableRollOverEffect1 a {
+    color:#FFF;
+    /* font-weight: bold; */
+}
+.tableRowClickEffect1{
+    background-color:#00F;
+    color:#FFF;
+}
+.tableRowClickEffect1 a {
+    color:#FFF;
+    /* font-weight: bold; */
+}
+
+/* 表２カラーリング */
+.tableRollOverEffect2{
+    background-color:#000;
+    color:#FFF;
+}
+.tableRowClickEffect2{
+    background-color:#00F;
+    color:#FFF;
+}
+
+
+    .GAME {
+        /* width: 330px; */
+        padding: 5px 0px;
+        font-size: 140%;
+        border-bottom:dotted 1px;
+    }
+    .GAME .vs {
+        float: left;
+        width: 20px;
+        text-align:center;
+    }
+    .GAME .teamA, .teamB {
+        float: left;
+        width: 120px;
+        /* font-size: 120%; */
+        /* background-color:#ECECEA; */
+        text-align:center;
+    }
+    .GAME .teamA {
+        /* padding: 15px 20px 0px 0px; */
+        /* text-align: right; */
+    }
+    .GAME .teamB {
+        /* padding: 15px 0px 0px 10px; */
+    }
+    .GAME .boxn, .boxw, .boxl {
+        width: 35px;
+        font-size: 100%;
+        font-weight: bold;
+        text-align:center;
+    }
