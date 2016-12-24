@@ -168,6 +168,14 @@ print '<?xml version="1.0" encoding="utf-8"?>'."\n";
 			</td>
 		</tr>
 		<tr>
+			<th>大会選択</th>
+			<td>
+				<select name="rid">
+					<option value="34">2016-17シーズン</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
 		  <td colspan="2"><input type="submit" name="Submit" value="ログイン" /></td>
 		</tr>
 	</table>
